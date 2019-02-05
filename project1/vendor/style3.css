@@ -1,0 +1,142 @@
+.em-text {
+	font-size: 4.4em;
+}
+
+.em-p-text {
+	font-size: 1.4em;
+}
+
+.navbar-brand {
+	font-size: 3.2em;
+}
+
+
+.jumbotron {
+	background:url('./images/bg1.jpg') no-repeat top center;
+	border-radius: none;
+	height:500px;
+	color:#fff;
+	overflow:none;
+	top:100px;
+	bottom:100px;
+	position: relative;
+}
+
+	
+.jumbotron .app-btn {
+	width:40%;
+	margin-left:40px;
+}
+
+.jubotron p{
+	margin-bottom: 40px;
+}
+
+.jumbotron .app-btn-mobile {
+	width:56%;
+}
+
+/*middle section*/
+
+#middle {
+	padding:30px;
+		top:60px;
+	position: relative;
+}
+
+/*feature section*/
+
+#features {
+	padding:50px;
+		top:60px;
+	position: relative;
+}
+
+#features ul li {
+	font-size:22px;
+	font-weight:bold;
+	list-style:none;
+	background:transparent;
+	border:none;
+}
+
+#features ul li i {
+	color:#fff;
+}
+
+#features .logo {
+	font-size: 200%;
+	color:#1c1c1c;
+}
+
+/*footer section*/
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+	.em-text {
+		font-size:2.2em;
+	}
+
+	.em-p-text {
+		font-size:1.223em;
+
+	}
+
+	.navbar-brand {
+		font-size: 2.2em;
+		transform: 2s font-size;
+	}
+
+	.jumbotron {
+		top:50px;
+		position: relative;
+	}
+
+	.jumbotron .app-btn {
+	width:40%;
+	margin-left:40px;
+	left:40px;
+	position: relative;
+}
+
+
+	.jumbotron .app-btn-mobile {
+	width:58%;
+	left:68px;
+	position: relative;
+}
+
+	#middle .card {
+		margin:10px;
+	}
+
+	#features h1 {
+		font-size:1.3em;
+	}
+
+	#features {
+	padding:20px;
+		top:60px;
+	position: relative;
+}
+
+	#features ul li {
+	font-size:16px;
+	font-weight:bold;
+	list-style:none;
+	line-height:1.2em;
+}
+
+
+	#features .logo {
+	font-size: 100%;
+	color:#1c1c1c;
+}
+
+}
+
+

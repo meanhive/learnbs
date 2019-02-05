@@ -1,0 +1,58 @@
+
+section {
+    margin-bottom: 60px;
+}
+
+#myCarousel {
+    margin-top:39px;
+}
+
+.carousel {
+    min-height:500px;
+    margin-bottom: 60px;
+
+}
+
+.carousel-caption {
+    z-index: 10;
+    text-align: left;
+    font-size: 20px;
+
+}
+
+/* mobile optimization carousel */
+
+.feature-list li{
+    list-style: none;
+    text-align: left;
+}
+
+.img-carousel {
+    width:200%;
+}
+
+/* marketing section */
+.marketing {
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: normal;
+}
+
+
+/* price section */
+
+/* domains page */
+
+#domain > .jumbotron{
+    background-color: rgba(233, 98, 8, 0.972) !important;
+}
+
+#domain-privacy  .row{
+    padding:15px;
+}
+
+.title-text {
+    font-weight: normal;
+}

@@ -1,0 +1,40 @@
+.em-text {
+	font-size: 4.4em;
+}
+
+.em-p-text {
+	font-size: 1.4em;
+}
+
+.navbar-brand {
+	font-size: 3.2em;
+}
+
+.jumbotron {
+	background:url('./images/bg1.jpg') no-repeat top center;
+	border-radius: none;
+	height:500px;
+	color:#fff;
+	overflow:none;
+}
+
+	
+.jumbotron .app-btn {
+	width:40%;
+	margin-left:40px;
+}
+
+.jubotron p{
+	margin-bottom: 40px;
+}
+
+.jumbotron .app-btn-mobile {
+	width:56%;
+}
+
+@media only screen and (max-width: 600px) {
+	.navbar-brand {
+		font-size: 2.2em;
+		transform: 2s font-size;
+	}
+}
